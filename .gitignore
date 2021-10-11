@@ -5,7 +5,6 @@
 !.gitignore
 !README.md
 !build.cmd
-!Program.cs
 !Console.cs
 !Application.cs
 

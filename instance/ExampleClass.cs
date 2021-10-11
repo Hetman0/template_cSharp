@@ -45,16 +45,19 @@ namespace _NS_
                 break;
             }
             #endregion
+            return null;
         }
+
+        public void Dispose() {}
 
         /// <summary>
         /// Example of using implicit operator
         /// </summary>
-        public static implicit operator byte(ExampleClass d) => 0;
+        public static implicit operator byte(ExampleClass<T> d) { return 0; }
         /// <summary>
         /// Example of using explicit operator
         /// </summary>
         /// <param name="b"></param>
-        public static explicit operator ExampleClass(byte b) => new ExampleClass();
+        public static explicit operator ExampleClass<T>(byte b) { return new ExampleClass<T>(); }
     }
 }

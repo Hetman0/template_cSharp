@@ -1,8 +1,8 @@
 using System;
 
-class Program
+public class Console
 {
-    static void Main(string[] args)
+    public static void Main(string[] args)
     {
         
     }

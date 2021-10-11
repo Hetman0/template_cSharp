@@ -4,7 +4,7 @@ using System.Text;
 
 namespace _NS_
 {
-    public interface IExampleInterface
+    interface IExampleInterface
     {
     }
 }

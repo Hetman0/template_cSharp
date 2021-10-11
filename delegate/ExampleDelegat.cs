@@ -1,4 +1,4 @@
 ﻿namespace _NS_
 {
-    public delegate T Example<T>(T input);
+    delegate T Example<T>(T input);
 }

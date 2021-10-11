@@ -4,7 +4,7 @@ using System.Collections.Generic;
 
 namespace _NS_
 {
-    public class EmptyAttribute : Attribute
+    class EmptyAttribute : Attribute
     {
 
     }

@@ -15,7 +15,7 @@ namespace _NS_
     /// 
     /// </summary>
     /// <typeparam name="T"></typeparam>
-    public class ExampleClass<T> : IDisposable
+    class ExampleClass<T> : IDisposable
     {
         /// <summary>
         /// Example of using goto keyword

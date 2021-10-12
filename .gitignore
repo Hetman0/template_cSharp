@@ -5,8 +5,8 @@
 !.gitignore
 !README.md
 !build.cmd
-!Console.cs
-!Application.cs
+!ConApp.cs
+!WinApp.cs
 
 !abstract/
 !abstract/*.cs

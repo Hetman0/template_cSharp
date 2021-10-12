@@ -1,6 +1,6 @@
 using System;
 
-class Application
+class WinApp
 {
     static void Main()
     {
